@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zoo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zoo">
+				<Option output="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/zoo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 zoo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zoo/fast">
+				<Option output="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/zoo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 zoo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hadasswittow/CLionProjects/zoo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Animal.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Animal.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Bird.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Bird.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Mammals.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Mammals.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/main.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/tests.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/tests.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
