@@ -23,6 +23,6 @@ inline Bird::Bird(std::string name,std::string species,unsigned char life_expect
         :Animal(name,species,life_expectancy,continents,food_types,speed_in_kmh),height(_height),wing_span(_wing_span){}
 inline void Bird::print()const{
     print_animal_basics();
-    std::cout<< "height: "<<height<<"\nwing span: "<<wing_span<<std::endl;
+    std::cout<< "height: "<<+height<<"\nwing span: "<<+wing_span<<std::endl;
 }
 #endif //ZOO_BIRD_H

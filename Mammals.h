@@ -27,8 +27,7 @@ duration_of_pregnancy(_duration_of_pregnancy),young_in_litter(_young_in_litter){
 
 inline void Mammals::print()const{
     print_animal_basics();
-    std::cout<< "duration of pregnancy: "<<duration_of_pregnancy<<"\nnumber of young born in each litter: "<<young_in_litter<<std::endl;
+    std::cout<< "duration of pregnancy: "<<+duration_of_pregnancy<<"\nnumber of young born in each litter: "<<+young_in_litter<<std::endl;
 }
-
 
 #endif //ZOO_MAMMALS_H
