@@ -12,41 +12,40 @@
 using std::list;
 typedef list<std::string> strList;
 
+
+static std::string continent_names_arr[] = {"ASIA", "EUROPE", "AFRICA","NORTH_AMERICA","SOUTH_AMERICA",
+                                         "AUSTRALIA", "ANTARCTICA","WATER"};
+static std::string food_types_arr[] = {"BREAD", "DOG FOOD", "FISH","MEAT","VEGETABLES"};
 class Animal {
 public:
-    Animal(std::string name,std::string species,unsigned char life_expectancy,strList continents,strList food_types, unsigned char speed_in_kmh);
+    Animal(std::string name);
     virtual ~Animal(){};
-    virtual void print()const =0;
+    virtual void print()const=0;
+    virtual std::string get_species()const =0;
+    virtual unsigned char get_life_expectancy()const =0;
+    virtual const strList& get_continents()const =0;
+    virtual const strList& get_food_types()const =0;
+    virtual unsigned char get_speed_in_kmh()const =0;
     friend std::ostream& operator<<(std::ostream& os, const Animal* dt);
 protected:
-    std::string m_species;
-    unsigned char m_life_expectancy;
-    mutable strList m_continents;
-    mutable strList m_food_types;
-    unsigned char m_speed_in_kmh;
-
+    std::string m_name;
 };
-inline Animal::Animal(std::string _name,std::string _species,unsigned char _life_expectancy,strList _continents,strList _food_types, unsigned char _speed_in_kmh){
+inline Animal::Animal(std::string _name){
     m_name=_name;
-    m_species=_species;
-    m_life_expectancy=_life_expectancy;
-    m_continents=_continents;
-    m_food_types=_food_types;
-    m_speed_in_kmh=_speed_in_kmh;
 }
+
 inline std::ostream& operator<<(std::ostream& os, const Animal* an){
 
-    os<<"Name: "<<an->m_name<<"\nspecies: "<<an->m_species<<"\nlife expectancy: "<<+an->m_life_expectancy<<"\nspeed in km/h: "<<+an->m_speed_in_kmh;
+    os<<"Name: "<<an->m_name<<"\nspecies: "<<an->get_species()<<"\nlife expectancy: "<<+an->get_life_expectancy()<<"\nspeed in km/h: "<<+an->get_speed_in_kmh();
     os<<"\nconitents:";
-    strList::iterator it = an->m_continents.begin();
-    for ( ; it != an->m_continents.end(); ++it)
-        os << ' ' << *it;
+    strList::const_iterator it = an->get_continents().begin();
+    for ( ; it != an->get_continents().end(); )
+        os << ' ' << *it++;
     os<<"\nfood types:";
-    it = an->m_food_types.begin();
-    for ( ; it != an->m_food_types.end(); ++it)
+    it = an->get_food_types().begin();
+    for ( ; it != an->get_food_types().end(); ++it)
         os << ' ' << *it<<',';
     os<<std::endl;
-
     return os;
 }
 

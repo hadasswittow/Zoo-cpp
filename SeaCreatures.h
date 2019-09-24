@@ -8,26 +8,29 @@
 #include "Animal.h"
 #include <string>
 
-class SeaCreatures : public Animal {
+class SeaCreatures : virtual public Animal {
 public:
-    SeaCreatures(std::string name,std::string species,unsigned char life_expectancy,strList continents,
-    strList food_types, unsigned char speed_in_kmh,unsigned int _lowest_depth);
+    SeaCreatures(std::string name):Animal(name){};
+    virtual ~SeaCreatures(){};
     /*virtual*/void print()const;
-    friend std::ostream& operator<<(std::ostream& os, const SeaCreatures& dt);
+    friend std::ostream& operator<<(std::ostream& os, const SeaCreatures* dt);
+    virtual std::string get_species()const =0;
+    virtual unsigned char get_life_expectancy()const =0;
+    virtual const strList& get_continents()const =0;
+    virtual const strList& get_food_types()const =0;
+    virtual unsigned char get_speed_in_kmh()const =0;
+    //sea creatures adds
+    virtual size_t get_lowest_depth()const =0;
 
-private:
-    unsigned int m_lowest_depth;
+
 };
-inline SeaCreatures::SeaCreatures(std::string name,std::string species,unsigned char life_expectancy,strList continents,
-                        strList food_types, unsigned char speed_in_kmh,unsigned int _lowest_depth)
-                        :Animal(name,species,life_expectancy,continents,food_types,speed_in_kmh),m_lowest_depth(_lowest_depth){}
 
 inline void SeaCreatures::print()const{
     std::cout<<this;
 }
-inline std::ostream& operator<<(std::ostream& os, const SeaCreatures& dt){
-    std::cout<<(Animal*)&dt;
-    std::cout << "lowest depth: " << +dt.m_lowest_depth << std::endl;
+inline std::ostream& operator<<(std::ostream& os, const SeaCreatures* dt){
+    std::cout<<(Animal*)dt;
+    std::cout << "lowest depth: " << +dt->get_lowest_depth() << std::endl;
     return os;
 }
 #endif //ZOO_SEACREATURES_H

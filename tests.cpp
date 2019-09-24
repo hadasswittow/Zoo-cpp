@@ -6,32 +6,22 @@
 
 void Tests::initialize_zoo(){
 
-    strList continents;
-    continents.push_back("Africa");
-    strList food_types;
-    food_types.push_back("Bread");
-    Mammals *Simba=new Mammals("Simba","Lion",30,continents,food_types,150,5,1);
-    Mammals *Mufasa=new Mammals("Mufasa","Lion",30,continents,food_types,150,5,1);
-    food_types.clear();
-    food_types.push_back("Dog food!");
-    Mammals *Toto=new Mammals("Toto","Dog",40,continents,food_types,150,5,6);
+    Lion *Simba=new Lion("Simba");
 
-    continents.clear();
-    continents.push_back("Everywhere");
-    food_types.clear();
-    food_types.push_back("Banana");
-    Mammals *Rafiki=new Mammals("Rafiki","Monkey",25,continents,food_types,100,3,2);
-    food_types.clear();
-    food_types.push_back("Bread");
-    Bird *Morten=new Bird("Morten","Goose",15,continents,food_types,60,50,14);
-    Bird *Akka=new Bird("Akka","Goose",15,continents,food_types,60,50,14);
-    Bird *Hedwig=new Bird("Hedwig","Owl",17,continents,food_types,60,50,14);
+    Lion *Mufasa=new Lion("Mufasa");
+    Dog *Toto=new Dog("Toto");
 
-    continents.clear();
-    continents.push_back("live in the water");
-    food_types.push_back("other fish");
-    SeaCreatures *Jaws=new SeaCreatures("Jaws","shark",30,continents,food_types,150,1500);
-    SeaCreatures *Nemo=new SeaCreatures("Nemo","clownfish",30,continents,food_types,150,1000);
+
+    Monkey *Rafiki=new Monkey("Rafiki");
+
+    Goose *Morten=new Goose("Morten");
+    Goose *Akka=new Goose("Akka");
+    SnowyOwl *Hedwig=new SnowyOwl("Hedwig");
+
+    Shark *Jaws=new Shark("Jaws");
+    Clownfish *Nemo=new Clownfish("Nemo");
+    Whale *Willy=new Whale("Willy");
+
     zoo.add_animal(Simba);
     zoo.add_animal(Mufasa);
     zoo.add_animal(Toto);
@@ -41,7 +31,11 @@ void Tests::initialize_zoo(){
     zoo.add_animal(Hedwig);
     zoo.add_animal(Jaws);
     zoo.add_animal(Nemo);
+    zoo.add_animal(Willy);
 }
 void Tests::generic_print(){
     zoo.generic_print();
+}
+void Tests::test_clear_zoo(){
+    zoo.clear_zoo();
 }

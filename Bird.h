@@ -8,27 +8,28 @@
 
 #include "Animal.h"
 
-class Bird : public Animal{
+class Bird : virtual public Animal{
 public:
-    Bird(std::string name,std::string species,unsigned char life_expectancy,strList continents,
-    strList food_types, unsigned char speed_in_kmh,size_t _height,unsigned char _wing_span);
+    Bird(std::string name):Animal(name){};
     /*virtual*/void print()const;
-    friend std::ostream& operator<<(std::ostream& os, const Bird& dt);
+    friend std::ostream& operator<<(std::ostream& os, const Bird* dt);
+    virtual std::string get_species()const =0;
+    virtual unsigned char get_life_expectancy()const =0;
+    virtual const strList& get_continents()const =0;
+    virtual const strList& get_food_types()const =0;
+    virtual unsigned char get_speed_in_kmh()const =0;
+    //Bird adds:
+    virtual size_t get_height()const =0;
+    virtual unsigned char get_wing_span()const=0;
 
-private:
-    size_t m_height;
-    unsigned char m_wing_span;
 
 };
-inline Bird::Bird(std::string name,std::string species,unsigned char life_expectancy,strList continents,
-                  strList food_types, unsigned char speed_in_kmh,size_t _height,unsigned char _wing_span)
-        :Animal(name,species,life_expectancy,continents,food_types,speed_in_kmh),m_height(_height),m_wing_span(_wing_span){}
 inline void Bird::print()const{
     std::cout<<this;
 }
-inline std::ostream& operator<<(std::ostream& os, const Bird& dt){
-    std::cout<<(Animal*)&dt;
-    std::cout<< "height: "<<+dt.m_height<<"\nwing span: "<<+dt.m_wing_span<<std::endl;
+inline std::ostream& operator<<(std::ostream& os, const Bird* dt){
+    std::cout<<(Animal*)dt;
+    std::cout<< "height: "<<+dt->get_height()<<"\nwing span: "<<+dt->get_wing_span()<<std::endl;
     return os;
 
 }

@@ -123,6 +123,195 @@ zoo/fast:
 	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/build
 .PHONY : zoo/fast
 
+Dog.o: Dog.cpp.o
+
+.PHONY : Dog.o
+
+# target to build an object file
+Dog.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Dog.cpp.o
+.PHONY : Dog.cpp.o
+
+Dog.i: Dog.cpp.i
+
+.PHONY : Dog.i
+
+# target to preprocess a source file
+Dog.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Dog.cpp.i
+.PHONY : Dog.cpp.i
+
+Dog.s: Dog.cpp.s
+
+.PHONY : Dog.s
+
+# target to generate assembly for a file
+Dog.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Dog.cpp.s
+.PHONY : Dog.cpp.s
+
+Goose.o: Goose.cpp.o
+
+.PHONY : Goose.o
+
+# target to build an object file
+Goose.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Goose.cpp.o
+.PHONY : Goose.cpp.o
+
+Goose.i: Goose.cpp.i
+
+.PHONY : Goose.i
+
+# target to preprocess a source file
+Goose.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Goose.cpp.i
+.PHONY : Goose.cpp.i
+
+Goose.s: Goose.cpp.s
+
+.PHONY : Goose.s
+
+# target to generate assembly for a file
+Goose.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Goose.cpp.s
+.PHONY : Goose.cpp.s
+
+Lion.o: Lion.cpp.o
+
+.PHONY : Lion.o
+
+# target to build an object file
+Lion.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Lion.cpp.o
+.PHONY : Lion.cpp.o
+
+Lion.i: Lion.cpp.i
+
+.PHONY : Lion.i
+
+# target to preprocess a source file
+Lion.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Lion.cpp.i
+.PHONY : Lion.cpp.i
+
+Lion.s: Lion.cpp.s
+
+.PHONY : Lion.s
+
+# target to generate assembly for a file
+Lion.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Lion.cpp.s
+.PHONY : Lion.cpp.s
+
+Monkey.o: Monkey.cpp.o
+
+.PHONY : Monkey.o
+
+# target to build an object file
+Monkey.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Monkey.cpp.o
+.PHONY : Monkey.cpp.o
+
+Monkey.i: Monkey.cpp.i
+
+.PHONY : Monkey.i
+
+# target to preprocess a source file
+Monkey.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Monkey.cpp.i
+.PHONY : Monkey.cpp.i
+
+Monkey.s: Monkey.cpp.s
+
+.PHONY : Monkey.s
+
+# target to generate assembly for a file
+Monkey.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Monkey.cpp.s
+.PHONY : Monkey.cpp.s
+
+Shark.o: Shark.cpp.o
+
+.PHONY : Shark.o
+
+# target to build an object file
+Shark.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Shark.cpp.o
+.PHONY : Shark.cpp.o
+
+Shark.i: Shark.cpp.i
+
+.PHONY : Shark.i
+
+# target to preprocess a source file
+Shark.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Shark.cpp.i
+.PHONY : Shark.cpp.i
+
+Shark.s: Shark.cpp.s
+
+.PHONY : Shark.s
+
+# target to generate assembly for a file
+Shark.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Shark.cpp.s
+.PHONY : Shark.cpp.s
+
+SnowyOwl.o: SnowyOwl.cpp.o
+
+.PHONY : SnowyOwl.o
+
+# target to build an object file
+SnowyOwl.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SnowyOwl.cpp.o
+.PHONY : SnowyOwl.cpp.o
+
+SnowyOwl.i: SnowyOwl.cpp.i
+
+.PHONY : SnowyOwl.i
+
+# target to preprocess a source file
+SnowyOwl.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SnowyOwl.cpp.i
+.PHONY : SnowyOwl.cpp.i
+
+SnowyOwl.s: SnowyOwl.cpp.s
+
+.PHONY : SnowyOwl.s
+
+# target to generate assembly for a file
+SnowyOwl.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SnowyOwl.cpp.s
+.PHONY : SnowyOwl.cpp.s
+
+Whale.o: Whale.cpp.o
+
+.PHONY : Whale.o
+
+# target to build an object file
+Whale.cpp.o:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Whale.cpp.o
+.PHONY : Whale.cpp.o
+
+Whale.i: Whale.cpp.i
+
+.PHONY : Whale.i
+
+# target to preprocess a source file
+Whale.cpp.i:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Whale.cpp.i
+.PHONY : Whale.cpp.i
+
+Whale.s: Whale.cpp.s
+
+.PHONY : Whale.s
+
+# target to generate assembly for a file
+Whale.cpp.s:
+	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Whale.cpp.s
+.PHONY : Whale.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +375,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... zoo"
 	@echo "... edit_cache"
+	@echo "... Dog.o"
+	@echo "... Dog.i"
+	@echo "... Dog.s"
+	@echo "... Goose.o"
+	@echo "... Goose.i"
+	@echo "... Goose.s"
+	@echo "... Lion.o"
+	@echo "... Lion.i"
+	@echo "... Lion.s"
+	@echo "... Monkey.o"
+	@echo "... Monkey.i"
+	@echo "... Monkey.s"
+	@echo "... Shark.o"
+	@echo "... Shark.i"
+	@echo "... Shark.s"
+	@echo "... SnowyOwl.o"
+	@echo "... SnowyOwl.i"
+	@echo "... SnowyOwl.s"
+	@echo "... Whale.o"
+	@echo "... Whale.i"
+	@echo "... Whale.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -12,16 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ebf990c-b019-4854-8d43-54e8a683ff9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lion.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lion.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monkey.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monkey.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Animal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bird.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bird.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mammals.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mammals.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeaCreatures.h" beforeDir="false" afterPath="$PROJECT_DIR$/SeaCreatures.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zoo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Zoo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/Animal.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zoo.dir/build.make" afterDir="false" />
@@ -35,6 +38,9 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/zoo" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zoo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/zoo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zoo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +95,8 @@
       <workItem from="1569254058209" duration="1040000" />
       <workItem from="1569256417117" duration="2256000" />
       <workItem from="1569259423194" duration="17270000" />
-      <workItem from="1569321738198" duration="2301000" />
+      <workItem from="1569321738198" duration="17196000" />
+      <workItem from="1569353674617" duration="11061000" />
     </task>
     <servers />
   </component>
@@ -108,5 +115,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="this-&gt;zoo.animals[1]-&gt;Mammals" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

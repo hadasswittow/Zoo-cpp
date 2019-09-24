@@ -14,6 +14,7 @@ public:
     void add_animal(Animal *animal);
     animalVecor get_animals();
     void generic_print();
+    void clear_zoo();
 private:
     animalVecor animals;
 
@@ -29,6 +30,12 @@ inline void Zoo::generic_print(){
     animalVecor::iterator it =animals.begin();
     for(;it!=animals.end();++it){
         (*it)->print();
+    }
+}
+inline void Zoo::clear_zoo(){
+    animalVecor::iterator it =animals.begin();
+    for(;it!=animals.end();++it){
+        delete (*it);
     }
 }
 

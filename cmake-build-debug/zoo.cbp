@@ -90,10 +90,55 @@
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Bird.h">
 			<Option target="zoo"/>
 		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Clownfish.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Dog.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Dog.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Goose.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Goose.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Lion.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Lion.h">
+			<Option target="zoo"/>
+		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Mammals.h">
 			<Option target="zoo"/>
 		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Monkey.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Monkey.h">
+			<Option target="zoo"/>
+		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Shark.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Shark.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SnowyOwl.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SnowyOwl.h">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Whale.cpp">
+			<Option target="zoo"/>
+		</Unit>
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Whale.h">
 			<Option target="zoo"/>
 		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Zoo.h">

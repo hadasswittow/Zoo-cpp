@@ -83,19 +83,124 @@ CMakeFiles/zoo.dir/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/tests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/tests.cpp -o CMakeFiles/zoo.dir/tests.cpp.s
 
+CMakeFiles/zoo.dir/Lion.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Lion.cpp.o: ../Lion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zoo.dir/Lion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Lion.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Lion.cpp
+
+CMakeFiles/zoo.dir/Lion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Lion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Lion.cpp > CMakeFiles/zoo.dir/Lion.cpp.i
+
+CMakeFiles/zoo.dir/Lion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Lion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Lion.cpp -o CMakeFiles/zoo.dir/Lion.cpp.s
+
+CMakeFiles/zoo.dir/Monkey.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Monkey.cpp.o: ../Monkey.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zoo.dir/Monkey.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Monkey.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Monkey.cpp
+
+CMakeFiles/zoo.dir/Monkey.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Monkey.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Monkey.cpp > CMakeFiles/zoo.dir/Monkey.cpp.i
+
+CMakeFiles/zoo.dir/Monkey.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Monkey.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Monkey.cpp -o CMakeFiles/zoo.dir/Monkey.cpp.s
+
+CMakeFiles/zoo.dir/Shark.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Shark.cpp.o: ../Shark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zoo.dir/Shark.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Shark.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Shark.cpp
+
+CMakeFiles/zoo.dir/Shark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Shark.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Shark.cpp > CMakeFiles/zoo.dir/Shark.cpp.i
+
+CMakeFiles/zoo.dir/Shark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Shark.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Shark.cpp -o CMakeFiles/zoo.dir/Shark.cpp.s
+
+CMakeFiles/zoo.dir/Dog.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Dog.cpp.o: ../Dog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zoo.dir/Dog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Dog.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Dog.cpp
+
+CMakeFiles/zoo.dir/Dog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Dog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Dog.cpp > CMakeFiles/zoo.dir/Dog.cpp.i
+
+CMakeFiles/zoo.dir/Dog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Dog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Dog.cpp -o CMakeFiles/zoo.dir/Dog.cpp.s
+
+CMakeFiles/zoo.dir/SnowyOwl.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/SnowyOwl.cpp.o: ../SnowyOwl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/zoo.dir/SnowyOwl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/SnowyOwl.cpp.o -c /home/hadasswittow/CLionProjects/zoo/SnowyOwl.cpp
+
+CMakeFiles/zoo.dir/SnowyOwl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/SnowyOwl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/SnowyOwl.cpp > CMakeFiles/zoo.dir/SnowyOwl.cpp.i
+
+CMakeFiles/zoo.dir/SnowyOwl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/SnowyOwl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/SnowyOwl.cpp -o CMakeFiles/zoo.dir/SnowyOwl.cpp.s
+
+CMakeFiles/zoo.dir/Goose.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Goose.cpp.o: ../Goose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/zoo.dir/Goose.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Goose.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Goose.cpp
+
+CMakeFiles/zoo.dir/Goose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Goose.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Goose.cpp > CMakeFiles/zoo.dir/Goose.cpp.i
+
+CMakeFiles/zoo.dir/Goose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Goose.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Goose.cpp -o CMakeFiles/zoo.dir/Goose.cpp.s
+
+CMakeFiles/zoo.dir/Whale.cpp.o: CMakeFiles/zoo.dir/flags.make
+CMakeFiles/zoo.dir/Whale.cpp.o: ../Whale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/zoo.dir/Whale.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Whale.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Whale.cpp
+
+CMakeFiles/zoo.dir/Whale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Whale.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Whale.cpp > CMakeFiles/zoo.dir/Whale.cpp.i
+
+CMakeFiles/zoo.dir/Whale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Whale.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Whale.cpp -o CMakeFiles/zoo.dir/Whale.cpp.s
+
 # Object files for target zoo
 zoo_OBJECTS = \
 "CMakeFiles/zoo.dir/main.cpp.o" \
-"CMakeFiles/zoo.dir/tests.cpp.o"
+"CMakeFiles/zoo.dir/tests.cpp.o" \
+"CMakeFiles/zoo.dir/Lion.cpp.o" \
+"CMakeFiles/zoo.dir/Monkey.cpp.o" \
+"CMakeFiles/zoo.dir/Shark.cpp.o" \
+"CMakeFiles/zoo.dir/Dog.cpp.o" \
+"CMakeFiles/zoo.dir/SnowyOwl.cpp.o" \
+"CMakeFiles/zoo.dir/Goose.cpp.o" \
+"CMakeFiles/zoo.dir/Whale.cpp.o"
 
 # External object files for target zoo
 zoo_EXTERNAL_OBJECTS =
 
 zoo: CMakeFiles/zoo.dir/main.cpp.o
 zoo: CMakeFiles/zoo.dir/tests.cpp.o
+zoo: CMakeFiles/zoo.dir/Lion.cpp.o
+zoo: CMakeFiles/zoo.dir/Monkey.cpp.o
+zoo: CMakeFiles/zoo.dir/Shark.cpp.o
+zoo: CMakeFiles/zoo.dir/Dog.cpp.o
+zoo: CMakeFiles/zoo.dir/SnowyOwl.cpp.o
+zoo: CMakeFiles/zoo.dir/Goose.cpp.o
+zoo: CMakeFiles/zoo.dir/Whale.cpp.o
 zoo: CMakeFiles/zoo.dir/build.make
 zoo: CMakeFiles/zoo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable zoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable zoo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zoo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
