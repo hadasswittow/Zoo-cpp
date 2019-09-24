@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Animal.cpp">
-			<Option target="zoo"/>
-		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Animal.h">
 			<Option target="zoo"/>
 		</Unit>

@@ -3,4 +3,4 @@ project(zoo)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(zoo main.cpp Animal.cpp Animal.h Mammals.h SeaCreatures.h Bird.h tests.cpp tests.h Zoo.h)
+add_executable(zoo main.cpp Animal.h Mammals.h SeaCreatures.h Bird.h tests.cpp tests.h Zoo.h)

@@ -19,32 +19,31 @@ public:
     virtual void print()const =0;
     friend std::ostream& operator<<(std::ostream& os, const Animal* dt);
 protected:
-    std::string name;
-    std::string species;
-    unsigned char life_expectancy;
-    mutable strList continents;
-    mutable strList food_types;
-    unsigned char speed_in_kmh;
+    std::string m_species;
+    unsigned char m_life_expectancy;
+    mutable strList m_continents;
+    mutable strList m_food_types;
+    unsigned char m_speed_in_kmh;
 
 };
 inline Animal::Animal(std::string _name,std::string _species,unsigned char _life_expectancy,strList _continents,strList _food_types, unsigned char _speed_in_kmh){
-    name=_name;
-    species=_species;
-    life_expectancy=_life_expectancy;
-    continents=_continents;
-    food_types=_food_types;
-    speed_in_kmh=_speed_in_kmh;
+    m_name=_name;
+    m_species=_species;
+    m_life_expectancy=_life_expectancy;
+    m_continents=_continents;
+    m_food_types=_food_types;
+    m_speed_in_kmh=_speed_in_kmh;
 }
 inline std::ostream& operator<<(std::ostream& os, const Animal* an){
 
-    os<<"Name: "<<an->name<<"\nspecies: "<<an->species<<"\nlife expectancy: "<<+an->life_expectancy<<"\nspeed in km/h: "<<+an->speed_in_kmh;
+    os<<"Name: "<<an->m_name<<"\nspecies: "<<an->m_species<<"\nlife expectancy: "<<+an->m_life_expectancy<<"\nspeed in km/h: "<<+an->m_speed_in_kmh;
     os<<"\nconitents:";
-    strList::iterator it = an->continents.begin();
-    for ( ; it != an->continents.end(); ++it)
+    strList::iterator it = an->m_continents.begin();
+    for ( ; it != an->m_continents.end(); ++it)
         os << ' ' << *it;
     os<<"\nfood types:";
-    it = an->food_types.begin();
-    for ( ; it != an->food_types.end(); ++it)
+    it = an->m_food_types.begin();
+    for ( ; it != an->m_food_types.end(); ++it)
         os << ' ' << *it<<',';
     os<<std::endl;
 

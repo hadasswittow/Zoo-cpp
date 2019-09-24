@@ -16,17 +16,18 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const SeaCreatures& dt);
 
 private:
-    unsigned int lowest_depth;
+    unsigned int m_lowest_depth;
 };
 inline SeaCreatures::SeaCreatures(std::string name,std::string species,unsigned char life_expectancy,strList continents,
                         strList food_types, unsigned char speed_in_kmh,unsigned int _lowest_depth)
-                        :Animal(name,species,life_expectancy,continents,food_types,speed_in_kmh),lowest_depth(_lowest_depth){}
+                        :Animal(name,species,life_expectancy,continents,food_types,speed_in_kmh),m_lowest_depth(_lowest_depth){}
 
 inline void SeaCreatures::print()const{
     std::cout<<this;
 }
 inline std::ostream& operator<<(std::ostream& os, const SeaCreatures& dt){
     std::cout<<(Animal*)&dt;
-    std::cout << "lowest depth: " << +dt.lowest_depth << std::endl;
+    std::cout << "lowest depth: " << +dt.m_lowest_depth << std::endl;
+    return os;
 }
 #endif //ZOO_SEACREATURES_H

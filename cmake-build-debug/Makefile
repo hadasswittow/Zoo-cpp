@@ -123,33 +123,6 @@ zoo/fast:
 	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/build
 .PHONY : zoo/fast
 
-Animal.o: Animal.cpp.o
-
-.PHONY : Animal.o
-
-# target to build an object file
-Animal.cpp.o:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Animal.cpp.o
-.PHONY : Animal.cpp.o
-
-Animal.i: Animal.cpp.i
-
-.PHONY : Animal.i
-
-# target to preprocess a source file
-Animal.cpp.i:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Animal.cpp.i
-.PHONY : Animal.cpp.i
-
-Animal.s: Animal.cpp.s
-
-.PHONY : Animal.s
-
-# target to generate assembly for a file
-Animal.cpp.s:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Animal.cpp.s
-.PHONY : Animal.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,9 +186,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... zoo"
 	@echo "... edit_cache"
-	@echo "... Animal.o"
-	@echo "... Animal.i"
-	@echo "... Animal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

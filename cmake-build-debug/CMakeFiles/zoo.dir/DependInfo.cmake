@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hadasswittow/CLionProjects/zoo/Animal.cpp" "/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles/zoo.dir/Animal.cpp.o"
   "/home/hadasswittow/CLionProjects/zoo/main.cpp" "/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles/zoo.dir/main.cpp.o"
   "/home/hadasswittow/CLionProjects/zoo/tests.cpp" "/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles/zoo.dir/tests.cpp.o"
   )

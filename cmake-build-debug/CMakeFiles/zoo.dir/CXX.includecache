@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/hadasswittow/CLionProjects/zoo/Animal.cpp
-Animal.h
-/home/hadasswittow/CLionProjects/zoo/Animal.h
-
 /home/hadasswittow/CLionProjects/zoo/Animal.h
 iostream
 -
