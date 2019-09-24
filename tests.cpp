@@ -32,19 +32,16 @@ void Tests::initialize_zoo(){
     food_types.push_back("other fish");
     SeaCreatures *Jaws=new SeaCreatures("Jaws","shark",30,continents,food_types,150,1500);
     SeaCreatures *Nemo=new SeaCreatures("Nemo","clownfish",30,continents,food_types,150,1000);
-    animals.push_back(Simba);
-    animals.push_back(Mufasa);
-    animals.push_back(Toto);
-    animals.push_back(Rafiki);
-    animals.push_back(Morten);
-    animals.push_back(Akka);
-    animals.push_back(Hedwig);
-    animals.push_back(Jaws);
-    animals.push_back(Nemo);
+    zoo.add_animal(Simba);
+    zoo.add_animal(Mufasa);
+    zoo.add_animal(Toto);
+    zoo.add_animal(Rafiki);
+    zoo.add_animal(Morten);
+    zoo.add_animal(Akka);
+    zoo.add_animal(Hedwig);
+    zoo.add_animal(Jaws);
+    zoo.add_animal(Nemo);
 }
 void Tests::generic_print(){
-    animalVecor::iterator it =animals.begin();
-    for(;it!=animals.end();++it){
-        (*it)->print();
-    }
+    zoo.generic_print();
 }

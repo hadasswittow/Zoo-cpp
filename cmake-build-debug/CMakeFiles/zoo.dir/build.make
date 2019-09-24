@@ -83,48 +83,9 @@ CMakeFiles/zoo.dir/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Animal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Animal.cpp -o CMakeFiles/zoo.dir/Animal.cpp.s
 
-CMakeFiles/zoo.dir/Mammals.cpp.o: CMakeFiles/zoo.dir/flags.make
-CMakeFiles/zoo.dir/Mammals.cpp.o: ../Mammals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zoo.dir/Mammals.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Mammals.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Mammals.cpp
-
-CMakeFiles/zoo.dir/Mammals.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Mammals.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Mammals.cpp > CMakeFiles/zoo.dir/Mammals.cpp.i
-
-CMakeFiles/zoo.dir/Mammals.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Mammals.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Mammals.cpp -o CMakeFiles/zoo.dir/Mammals.cpp.s
-
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o: CMakeFiles/zoo.dir/flags.make
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o: ../SeaCreatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zoo.dir/SeaCreatures.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/SeaCreatures.cpp.o -c /home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp
-
-CMakeFiles/zoo.dir/SeaCreatures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/SeaCreatures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp > CMakeFiles/zoo.dir/SeaCreatures.cpp.i
-
-CMakeFiles/zoo.dir/SeaCreatures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/SeaCreatures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp -o CMakeFiles/zoo.dir/SeaCreatures.cpp.s
-
-CMakeFiles/zoo.dir/Bird.cpp.o: CMakeFiles/zoo.dir/flags.make
-CMakeFiles/zoo.dir/Bird.cpp.o: ../Bird.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zoo.dir/Bird.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/Bird.cpp.o -c /home/hadasswittow/CLionProjects/zoo/Bird.cpp
-
-CMakeFiles/zoo.dir/Bird.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zoo.dir/Bird.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hadasswittow/CLionProjects/zoo/Bird.cpp > CMakeFiles/zoo.dir/Bird.cpp.i
-
-CMakeFiles/zoo.dir/Bird.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zoo.dir/Bird.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hadasswittow/CLionProjects/zoo/Bird.cpp -o CMakeFiles/zoo.dir/Bird.cpp.s
-
 CMakeFiles/zoo.dir/tests.cpp.o: CMakeFiles/zoo.dir/flags.make
 CMakeFiles/zoo.dir/tests.cpp.o: ../tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zoo.dir/tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zoo.dir/tests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zoo.dir/tests.cpp.o -c /home/hadasswittow/CLionProjects/zoo/tests.cpp
 
 CMakeFiles/zoo.dir/tests.cpp.i: cmake_force
@@ -139,9 +100,6 @@ CMakeFiles/zoo.dir/tests.cpp.s: cmake_force
 zoo_OBJECTS = \
 "CMakeFiles/zoo.dir/main.cpp.o" \
 "CMakeFiles/zoo.dir/Animal.cpp.o" \
-"CMakeFiles/zoo.dir/Mammals.cpp.o" \
-"CMakeFiles/zoo.dir/SeaCreatures.cpp.o" \
-"CMakeFiles/zoo.dir/Bird.cpp.o" \
 "CMakeFiles/zoo.dir/tests.cpp.o"
 
 # External object files for target zoo
@@ -149,13 +107,10 @@ zoo_EXTERNAL_OBJECTS =
 
 zoo: CMakeFiles/zoo.dir/main.cpp.o
 zoo: CMakeFiles/zoo.dir/Animal.cpp.o
-zoo: CMakeFiles/zoo.dir/Mammals.cpp.o
-zoo: CMakeFiles/zoo.dir/SeaCreatures.cpp.o
-zoo: CMakeFiles/zoo.dir/Bird.cpp.o
 zoo: CMakeFiles/zoo.dir/tests.cpp.o
 zoo: CMakeFiles/zoo.dir/build.make
 zoo: CMakeFiles/zoo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable zoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hadasswittow/CLionProjects/zoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable zoo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zoo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

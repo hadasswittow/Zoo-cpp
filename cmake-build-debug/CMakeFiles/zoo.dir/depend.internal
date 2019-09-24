@@ -4,23 +4,12 @@
 CMakeFiles/zoo.dir/Animal.cpp.o
  /home/hadasswittow/CLionProjects/zoo/Animal.cpp
  /home/hadasswittow/CLionProjects/zoo/Animal.h
-CMakeFiles/zoo.dir/Bird.cpp.o
- /home/hadasswittow/CLionProjects/zoo/Animal.h
- /home/hadasswittow/CLionProjects/zoo/Bird.cpp
- /home/hadasswittow/CLionProjects/zoo/Bird.h
-CMakeFiles/zoo.dir/Mammals.cpp.o
- /home/hadasswittow/CLionProjects/zoo/Animal.h
- /home/hadasswittow/CLionProjects/zoo/Mammals.cpp
- /home/hadasswittow/CLionProjects/zoo/Mammals.h
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o
- /home/hadasswittow/CLionProjects/zoo/Animal.h
- /home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp
- /home/hadasswittow/CLionProjects/zoo/SeaCreatures.h
 CMakeFiles/zoo.dir/main.cpp.o
  /home/hadasswittow/CLionProjects/zoo/Animal.h
  /home/hadasswittow/CLionProjects/zoo/Bird.h
  /home/hadasswittow/CLionProjects/zoo/Mammals.h
  /home/hadasswittow/CLionProjects/zoo/SeaCreatures.h
+ /home/hadasswittow/CLionProjects/zoo/Zoo.h
  /home/hadasswittow/CLionProjects/zoo/main.cpp
  /home/hadasswittow/CLionProjects/zoo/tests.h
 CMakeFiles/zoo.dir/tests.cpp.o
@@ -28,5 +17,6 @@ CMakeFiles/zoo.dir/tests.cpp.o
  /home/hadasswittow/CLionProjects/zoo/Bird.h
  /home/hadasswittow/CLionProjects/zoo/Mammals.h
  /home/hadasswittow/CLionProjects/zoo/SeaCreatures.h
+ /home/hadasswittow/CLionProjects/zoo/Zoo.h
  /home/hadasswittow/CLionProjects/zoo/tests.cpp
  /home/hadasswittow/CLionProjects/zoo/tests.h

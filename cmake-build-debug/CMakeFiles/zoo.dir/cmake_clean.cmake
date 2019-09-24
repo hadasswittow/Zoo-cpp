@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/zoo.dir/main.cpp.o"
   "CMakeFiles/zoo.dir/Animal.cpp.o"
-  "CMakeFiles/zoo.dir/Mammals.cpp.o"
-  "CMakeFiles/zoo.dir/SeaCreatures.cpp.o"
-  "CMakeFiles/zoo.dir/Bird.cpp.o"
   "CMakeFiles/zoo.dir/tests.cpp.o"
   "zoo.pdb"
   "zoo"

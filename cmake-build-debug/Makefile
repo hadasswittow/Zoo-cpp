@@ -150,87 +150,6 @@ Animal.cpp.s:
 	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
 
-Bird.o: Bird.cpp.o
-
-.PHONY : Bird.o
-
-# target to build an object file
-Bird.cpp.o:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Bird.cpp.o
-.PHONY : Bird.cpp.o
-
-Bird.i: Bird.cpp.i
-
-.PHONY : Bird.i
-
-# target to preprocess a source file
-Bird.cpp.i:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Bird.cpp.i
-.PHONY : Bird.cpp.i
-
-Bird.s: Bird.cpp.s
-
-.PHONY : Bird.s
-
-# target to generate assembly for a file
-Bird.cpp.s:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Bird.cpp.s
-.PHONY : Bird.cpp.s
-
-Mammals.o: Mammals.cpp.o
-
-.PHONY : Mammals.o
-
-# target to build an object file
-Mammals.cpp.o:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Mammals.cpp.o
-.PHONY : Mammals.cpp.o
-
-Mammals.i: Mammals.cpp.i
-
-.PHONY : Mammals.i
-
-# target to preprocess a source file
-Mammals.cpp.i:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Mammals.cpp.i
-.PHONY : Mammals.cpp.i
-
-Mammals.s: Mammals.cpp.s
-
-.PHONY : Mammals.s
-
-# target to generate assembly for a file
-Mammals.cpp.s:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/Mammals.cpp.s
-.PHONY : Mammals.cpp.s
-
-SeaCreatures.o: SeaCreatures.cpp.o
-
-.PHONY : SeaCreatures.o
-
-# target to build an object file
-SeaCreatures.cpp.o:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SeaCreatures.cpp.o
-.PHONY : SeaCreatures.cpp.o
-
-SeaCreatures.i: SeaCreatures.cpp.i
-
-.PHONY : SeaCreatures.i
-
-# target to preprocess a source file
-SeaCreatures.cpp.i:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SeaCreatures.cpp.i
-.PHONY : SeaCreatures.cpp.i
-
-SeaCreatures.s: SeaCreatures.cpp.s
-
-.PHONY : SeaCreatures.s
-
-# target to generate assembly for a file
-SeaCreatures.cpp.s:
-	$(MAKE) -f CMakeFiles/zoo.dir/build.make CMakeFiles/zoo.dir/SeaCreatures.cpp.s
-.PHONY : SeaCreatures.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -297,15 +216,6 @@ help:
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
-	@echo "... Bird.o"
-	@echo "... Bird.i"
-	@echo "... Bird.s"
-	@echo "... Mammals.o"
-	@echo "... Mammals.i"
-	@echo "... Mammals.s"
-	@echo "... SeaCreatures.o"
-	@echo "... SeaCreatures.i"
-	@echo "... SeaCreatures.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

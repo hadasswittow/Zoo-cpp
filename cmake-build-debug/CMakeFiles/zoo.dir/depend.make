@@ -4,22 +4,11 @@
 CMakeFiles/zoo.dir/Animal.cpp.o: ../Animal.cpp
 CMakeFiles/zoo.dir/Animal.cpp.o: ../Animal.h
 
-CMakeFiles/zoo.dir/Bird.cpp.o: ../Animal.h
-CMakeFiles/zoo.dir/Bird.cpp.o: ../Bird.cpp
-CMakeFiles/zoo.dir/Bird.cpp.o: ../Bird.h
-
-CMakeFiles/zoo.dir/Mammals.cpp.o: ../Animal.h
-CMakeFiles/zoo.dir/Mammals.cpp.o: ../Mammals.cpp
-CMakeFiles/zoo.dir/Mammals.cpp.o: ../Mammals.h
-
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o: ../Animal.h
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o: ../SeaCreatures.cpp
-CMakeFiles/zoo.dir/SeaCreatures.cpp.o: ../SeaCreatures.h
-
 CMakeFiles/zoo.dir/main.cpp.o: ../Animal.h
 CMakeFiles/zoo.dir/main.cpp.o: ../Bird.h
 CMakeFiles/zoo.dir/main.cpp.o: ../Mammals.h
 CMakeFiles/zoo.dir/main.cpp.o: ../SeaCreatures.h
+CMakeFiles/zoo.dir/main.cpp.o: ../Zoo.h
 CMakeFiles/zoo.dir/main.cpp.o: ../main.cpp
 CMakeFiles/zoo.dir/main.cpp.o: ../tests.h
 
@@ -27,6 +16,7 @@ CMakeFiles/zoo.dir/tests.cpp.o: ../Animal.h
 CMakeFiles/zoo.dir/tests.cpp.o: ../Bird.h
 CMakeFiles/zoo.dir/tests.cpp.o: ../Mammals.h
 CMakeFiles/zoo.dir/tests.cpp.o: ../SeaCreatures.h
+CMakeFiles/zoo.dir/tests.cpp.o: ../Zoo.h
 CMakeFiles/zoo.dir/tests.cpp.o: ../tests.cpp
 CMakeFiles/zoo.dir/tests.cpp.o: ../tests.h
 

@@ -90,22 +90,16 @@
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Animal.h">
 			<Option target="zoo"/>
 		</Unit>
-		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Bird.cpp">
-			<Option target="zoo"/>
-		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Bird.h">
-			<Option target="zoo"/>
-		</Unit>
-		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Mammals.cpp">
 			<Option target="zoo"/>
 		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Mammals.h">
 			<Option target="zoo"/>
 		</Unit>
-		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.cpp">
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.h">
 			<Option target="zoo"/>
 		</Unit>
-		<Unit filename="/home/hadasswittow/CLionProjects/zoo/SeaCreatures.h">
+		<Unit filename="/home/hadasswittow/CLionProjects/zoo/Zoo.h">
 			<Option target="zoo"/>
 		</Unit>
 		<Unit filename="/home/hadasswittow/CLionProjects/zoo/main.cpp">

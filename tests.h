@@ -9,10 +9,11 @@
 #include "Bird.h"
 #include "SeaCreatures.h"
 #include <vector>
+#include "Zoo.h"
 typedef std::vector<Animal*> animalVecor ;
 class Tests {
+    Zoo zoo;
 public:
-    animalVecor animals;
     void initialize_zoo();
     void generic_print();
 
